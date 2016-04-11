@@ -10,7 +10,7 @@ height = pygame.display.Info().current_h
 width = pygame.display.Info().current_w
 DISPLAYSURF = pygame.display.set_mode((width, height),(pygame.FULLSCREEN|pygame.HWSURFACE))
 
-pygame.display.set_caption('Agar by Sanil')
+pygame.display.set_caption('Agar')
 fpsClock=pygame.time.Clock()
 game_fps = 60
 
